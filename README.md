@@ -1,29 +1,45 @@
-# Wheeler Bowl fundraising workflow
+# Wheeler Bowl
 
-A project for organizing fundraising outreach, gift handoffs, and an auction interface prototype.
+A fundraising workflow connecting outreach, gift collection, event handoffs, and an auction interface prototype.
 
-## The problem
+[Read the case study](CASE_STUDY.md) · [Workflow](#workflow) · [Publication scope](PUBLICATION.md)
 
-Fundraising requires clear handoffs between outreach, collection, and event preparation. A promising response is not the same as a gift that is ready for use.
+## A promise still needs a handoff
 
-## Implementation
+A positive response to a fundraising request is useful, but it does not establish that a gift has been received or is ready for an event.
 
-The private project includes workflow documentation, blank tracking templates, and an auction interface prototype adapted from the original event preparation work.
+This project organizes the work between those moments. It combines outreach and gift-handoff documentation, blank tracking templates, and an auction interface prototype adapted from the original event preparation work.
 
-| Stage | Purpose |
+## Workflow
+
+| Responsibility | What needs to be clear |
 | --- | --- |
-| Outreach | Keep requests and followups organized |
-| Confirmation | Distinguish a response from a confirmed contribution |
-| Collection | Track whether the gift has actually been received |
-| Handoff | Make event preparation responsibilities clear |
-| Auction prototype | Explore how available items could be presented |
+| Outreach | What has been requested and what needs a followup |
+| Confirmation | What has actually been offered |
+| Collection | Whether the gift has been received |
+| Event handoff | What is ready and who is responsible for it |
+| Auction presentation | How available items could be presented in the prototype |
 
-## Limits
+The distinction between a response, a confirmed contribution, and a collected gift prevents an optimistic status from becoming an assumption in event preparation.
 
-The auction is an interface prototype. It does not process payments or provide a shared bidding service. This repository makes no claim about fundraising results or completed donor commitments.
+## Separate the prototype
 
-## Public scope
+The auction interface explores presentation and interaction. It does not process payments or provide a shared bidding service.
 
-This repository contains a qualitative process description. Donor records, contact details, prices, item values, bids, tracking files, screenshots, prototype code, and development history are retained privately.
+That boundary matters operationally. A convincing interface is not evidence that a transaction has happened, a contribution has been collected, or a fundraising outcome has been recorded.
 
-AI assisted with adaptation, checks, and documentation. Operational records must be reviewed separately before any publication.
+## Design decisions
+
+**Make the handoff visible.** Outreach, collection, and event preparation are different responsibilities. A useful record should make the next responsibility clear.
+
+**Keep commitments distinct from outcomes.** A response is not the same record as a gift in hand. The workflow needs to preserve the difference.
+
+**Protect operational records.** Donor contacts and gift details belong in the working records, rather than in a public demonstration.
+
+The [case study](CASE_STUDY.md) expands the workflow, the prototype boundary, and the review questions behind those decisions.
+
+## Scope and contribution
+
+This publication documents the process and prototype. Donor records, contacts, gift details, prices, bids, tracking files, screenshots, source code, and development history remain private. It makes no claim about fundraising results or completed donor commitments.
+
+AI assisted with adaptation, checks, and documentation. [Publication policy](PUBLICATION.md)
